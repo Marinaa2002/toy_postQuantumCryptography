@@ -2,7 +2,9 @@
 This repository contains a C implementation of a toy version of the Kyber Post-Quantum Public-Key Cryptosystem. The implementation uses polynomials from Z97/(X^4+1), representing polynomials modulo X^4+1 with coefficients modulo 97.
 # Files
 toy.h: Header file containing macro definitions for the toy cryptosystem.
+
 toy.c: File containing implemention the toy cryptosystem.
+
 main.c: To run the code
 # Implementation Details
 Polynomial Multiplication: The polynomial multiplication is implemented using a naive approach, where each coefficient is computed individually according to the provided pseudocode.
